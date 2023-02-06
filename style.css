@@ -1,0 +1,64 @@
+:root {
+    --dark: rgba(20, 20, 20, 0.8);
+    --idle: rgba(100, 100, 100, 0.8);
+    --active: rgba(200, 200, 200, 0.8);
+}
+
+@font-face {
+    font-family: 'becketregularregular';
+    src: url(assets/becket-webfont.woff2) format('woff2'),
+         url(assets/becket-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'becketbold';
+    src: url(assets/becketbold-webfont.woff2) format('woff2'),
+         url(assets/becketbold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'becketlight';
+    src: url(assets/becketlight-webfont.woff2) format('woff2'),
+         url(assets/becketlight-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+  background-color: var(--dark);
+  background-image: url(assets/texture.png), url(assets/txixt.png);
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, contain;
+
+}
+
+body {
+    background-color: transparent;
+    width: 100%
+}
+
+menu {
+    margin: none;
+    padding: none;
+    padding-top: 510px;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'becketlight';
+    color: var(--active);
+    text-shadow: 0 0 1px white;
+}
+
+article {
+    background-color: transparent;
+    font-family: 'becketlight';
+    color: var(--active);
+    text-shadow: 0 0 1px white;
+}
