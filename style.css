@@ -46,10 +46,11 @@ body {
 }
 
 menu {
-    margin: none;
-    padding: none;
-    padding-top: 510px;
-    text-align: center;
+    opacity: 0.5;
+    margin: 25%;
+    padding: 25%;
+    padding-top: 220px;
+    text-align: left;
     background-color: transparent;
     font-family: 'becketlight';
     color: var(--active);
